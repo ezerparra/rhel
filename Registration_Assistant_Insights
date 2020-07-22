@@ -1,0 +1,9 @@
+Registration Assistant
+Registering a System - Red Hat Enterprise Linux 7 - All Versions
+
+# subscription-manager register --username <username> --password <password>
+# subscription-manager list --available
+# subscription-manager attach --pool=<poolID>
+# yum install insights-client
+# insights-client --register
+
