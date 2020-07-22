@@ -1,0 +1,9 @@
+Cómo cambiar el nombre del equipo en Linux desde el terminal
+Desde Terminal:
+# sudo hostname nuevonombre
+
+
+# nmcli general hostname
+# nmcli general hostname nuevonombre
+
+* En ambos casos reiniciar el terminal.
