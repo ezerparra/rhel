@@ -1,0 +1,11 @@
+ Instalar consola web
+ instalar cockpit package and set up the cockpit.socket service ya viene habilitado para RHEL 8 web console
+ 
+ # yum install cockpit
+ # systemctl enable --now cockpit.socket
+ 
+ # firewall-cmd --add-service=cockpit --permanent
+ # firewall-cmd --reload
+ 
+ Incie la consola web desde local en la siguiente:
+ https://localhost:9090
